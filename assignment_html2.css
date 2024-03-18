@@ -1,0 +1,44 @@
+#p1
+{
+    height:auto;
+    width:30%;
+    margin:auto;
+    padding-left: 20px;
+    border: 5px outset grey;
+    background-color: aquamarine;
+    color:cornflowerblue;
+    text-align: center;
+}
+#p2
+{
+    height: 100%;
+    width:30%;
+    margin:auto;
+    border: 5px outset grey;
+    padding-left: 20px;
+    background-color: chartreuse;
+    color:crimson;
+    text-align: center;
+}
+#p3
+{
+    height:auto;
+    width:30%;
+    margin:auto;
+    border: 5px outset grey;
+    padding-left: 20px;
+    background-color: darkorange;
+    color:forestgreen;
+    text-align: center;
+}
+#p4
+{
+    height:auto;
+    width:30%;
+    margin:auto;
+    border: 5px outset grey;
+    padding-left: 20px;
+    background-color: lightseagreen;
+    color:mediumorchid;
+    text-align: center;
+}
