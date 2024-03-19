@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        body{
+           display: flex;
+           justify-content: center;
+           text-align: center;
+        }
+        form{
+            border: 1px solid black;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form action="login.html" method="post">
+    <div>
+    <h3>Registration</h3>
+First Name: <input type="text" name="firstname"><br><br>
+Last Name: <input type="text" name="lastname"><br><br>
+DOB:     <input type="date" name="dob"><br><br>
+Gender:   <input type="radio" name="gender">Male <input type="radio" name="gender">Female<br><br>
+Address: <textarea rows="4" cols="22"></textarea><br><br>
+Course:<select name="course">
+<option>    </option>
+<option>java</option>
+<option>ui/ux</option>
+<option>aws</option>
+<option>digital marketing</option>
+</select><br><br>
+<button>submit</button>
+</div>
+</form>
+</body>
+</html>
