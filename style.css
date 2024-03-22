@@ -1,21 +1,38 @@
-.container{
-    background-color:rgb(209, 234, 235);
-    width:400px;
-    border: 2px solid rgb(114, 237, 241);
-    padding: 15px;
-    margin: 10px;
-    position: relative;
-    border-radius: 6px;
+
+body{
+    margin:0;
+    padding:0;
+
+}
+.menu-wrapper{
+
+    background-color: aqua;
+    height: 200px;
+
+}
+.logo{
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+    margin-left:30px;
 }
 img{
-    width:25%;
-    float:left;
-    margin:20px;
+    width: 140px;
 }
-h1{
-    color:darkgreen;
-    font-family: 'Times New Roman', Times, serif;
+
+nav{
+    position: relative;
+    left:30%;
+    top:20px;
 }
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+ul{
+     
+
+}
+
+li{
+    padding: 10px;
+    display: inline;
+    background-color: azure;
+    
 }
