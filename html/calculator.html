@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <script src="C:\Users\Sudheer\Desktop\FRONTEND\JavaScript\calc.js"></script>
+</head>
+<body>
+    <h3>Basic Calculator</h3>
+    <label>Number1</label>
+    <input type="text"  placeholder="eg:1" id="no1"><br><br>
+    <label>Number2</label>
+    <input type="text"  placeholder="eg:1" id="no2"><br><br>
+    <label>Operation</label>
+    <select id="op">
+        <option>select</option>
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select><br><br>
+    <label>Result</label>
+    <input type="text" id="result">
+    <!-- <script>
+        
+        function calculate()
+    {
+        var x=parseInt(document.getElementById("no1").value);
+        var y=parseInt(document.getElementById("no2").value);
+        var op=document.getElementById("op").value;
+        var result;
+        if(op=='+')
+        {
+           result=x+y;
+        }
+        else if(op=='-')
+        {
+            result= x-y;
+        }
+        else if(op=='*')
+        {
+            result= x*y;
+        }
+        else if(op=='/')
+        {
+            result= x/y;
+        }
+        document.getElementById("result").value=result;
+    }
+    </script>--><br><br> 
+    <button onclick="calculate()"> calculate </button>
+</body>
+</html>
