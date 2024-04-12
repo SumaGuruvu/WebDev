@@ -1,0 +1,22 @@
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    background-color:rgb(0, 204, 0);
+    padding: 40px;
+    margin-top: auto;
+}
+table,th,td{
+    border: 1px solid rosybrown;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;     
+}
+input{
+    width:500px;
+    display:flex;
+    flex-direction: column;
+  }
+  .center{
+    display:block
+  }
